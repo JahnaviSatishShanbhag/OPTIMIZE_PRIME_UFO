@@ -14,7 +14,7 @@ body{
     height: 70px;
     margin-top: 0%;
     margin-right: 0px;
-    width: 92.82%;
+    width: 91.82%;
     margin-left: 110px;
     
 
@@ -107,6 +107,19 @@ input {
     padding: 6px;
     width: 16%;
     border-radius: 4px;
+}
+
+div img{
+    height: 420px;
+}
+
+.boxPara
+{
+    color:white;
+    height:100px;
+    margin-top: -250px;
+    margin-left:80px;
+    font-size: 30px;
 }
 
 
