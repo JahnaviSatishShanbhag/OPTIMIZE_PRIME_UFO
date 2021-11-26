@@ -108,4 +108,82 @@ input {
     width: 16%;
     border-radius: 4px;
 }
+.main {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    width:1100px;
+    margin: 0px auto;
+    /* padding:0%; */
+    }
+    .flip3D
+    { width:305px;
+     height:300px;
+     margin:20px;
+     
+     }
+     .flip3D > .front{
+        position:absolute;
+        -webkit-transform: perspective( 600px ) rotateY( 0deg );
+        transform: perspective( 600px ) rotateY( 0deg );
+        background:linear-gradient( #0d0558, rgb(177 218 242));
+                     width:305px;
+                     height:300px;
+                    border-radius: 7px;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition: -webkit-transform .5s linear 0s;
+        transition: transform .5s linear 0s;
+    }
+    .flip3D > .back{
+        position:absolute;
+        -webkit-transform: perspective( 600px ) rotateY( 180deg );
+        transform: perspective( 600px ) rotateY( 180deg );
+        background: -webkit-linear-gradient(rgb(177 218 242),#0d0558 );
+                    width:305px; 
+                     height:300px;
+                     border-radius: 7px;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition: -webkit-transform .5s linear 0s;
+        transition: transform .5s linear 0s;
+    }
+    .flip3D:hover > .front{
+        -webkit-transform: perspective( 600px ) rotateY( -180deg );
+        transform: perspective( 600px ) rotateY( -180deg );
+    }
+    .flip3D:hover > .back{
+        -webkit-transform: perspective( 600px ) rotateY( 0deg );
+        transform: perspective( 600px ) rotateY( 0deg );
+    }
+    .back{
+    font-family:'Roboto',sans-serif;
+    font-size:22px;
+    padding:5px;
+    color:rgb(0,0,0);
+    
+    }
+    .front{
+    font-family:'Roboto',sans-serif;
+    font-size:22px;
+    padding:5px;
+    text-align:center;
+    justify-content:center;
+    }
+    .front p{
+    text-align:center;
+    }
+    .back p{
+    text-align:center;
+    }
+    
+    .img {
+        height: 210px;
+        width: 219px;
+    }
+.hii{
+    /* margin-left: 90px; */
+    text-align: center;
+}
 
