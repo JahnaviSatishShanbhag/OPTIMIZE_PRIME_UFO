@@ -110,12 +110,14 @@ input {
 }
 .main {
     display:flex;
+    /* background-color: rgb(168, 201, 202); */
+    background: url('./images/back2.jpg');
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-    width:1100px;
-    margin: 0px auto;
-    /* padding:0%; */
+    width:1518px;
+    margin: 0%;
+    padding:0%;
     }
     .flip3D
     { width:305px;
