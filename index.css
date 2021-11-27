@@ -111,7 +111,7 @@ input {
 .main {
     display:flex;
     /* background-color: rgb(168, 201, 202); */
-    background: url('./images/back2.jpg');
+    background: url('./images/back3.jpg');
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
@@ -142,7 +142,7 @@ input {
         position:absolute;
         -webkit-transform: perspective( 600px ) rotateY( 180deg );
         transform: perspective( 600px ) rotateY( 180deg );
-        background: -webkit-linear-gradient(rgb(177 218 242),#0d0558 );
+        background: -webkit-linear-gradient(rgb(28, 95, 158),#8cbddf );
                     width:305px; 
                      height:300px;
                      border-radius: 7px;
@@ -162,14 +162,15 @@ input {
     .back{
     font-family:'Roboto',sans-serif;
     font-size:22px;
-    padding:5px;
+    padding-top: 23px;
+    padding-left:44px;
     color:rgb(0,0,0);
     
     }
     .front{
     font-family:'Roboto',sans-serif;
     font-size:22px;
-    padding:5px;
+    padding:19px;
     text-align:center;
     justify-content:center;
     }
@@ -187,5 +188,31 @@ input {
 .hii{
     /* margin-left: 90px; */
     text-align: center;
+    background-color: rgb(212, 243, 255);
 }
 
+.foot{
+    border-top: none;
+    margin:0px;
+}
+.foota{
+    /* padding-right: 4px; */
+    justify-content: center;
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-right: 0px;
+    padding-left:79px;
+}
+.copy{
+    font-size: 12px;
+    text-align: center;
+}
+.smedia{
+    background-color: rgb(199, 209, 240);
+    height: 50px;
+    /* margin-left: 20px; */
+    /* opacity: 0.5; */
+}
+.sm{
+    margin-left: 20px;
+}
